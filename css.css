@@ -1,0 +1,95 @@
+body{
+    background-image: url(/fondos-de-colores-fondos-de-pantalla.-fondo-de-pantalla-lisos.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.comidas{
+    background: rgb(255, 227, 68);
+    text-align: center;
+    width: 322px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 2s;
+}
+
+.comidas:hover{
+    background-color:darkgray;
+}
+
+.jugos{
+    background: rgb(128, 117, 117);
+    text-align: center;
+    width: 322px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 2s;
+}
+
+.jugos:hover{
+    background-color:darkgray;
+}
+
+.copteles{
+    background: rgb(128, 117, 117);
+    text-align: center;
+    width: 322px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 2s;
+
+}
+
+.copteles:hover{
+    background-color:darkgray;
+}
+
+h1{
+    padding: 22px;
+}
+
+.contenedor{
+    margin-top: 422px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+}
+
+@media screen and (max-width: 700px ) and (min-width:10px){
+    body{
+        background-image: url(/uwp899709.jpeg);
+    }
+    
+    .comidas{
+        background: rgb(117, 111, 192);
+    }
+    .comidas:hover{
+        background: blue;
+    }
+    .jugos{
+        background: rgb(117, 111, 192);
+    }
+    .jugos:hover{
+        background: blue;
+    }
+    .copteles{
+        background: rgb(117, 111, 192);
+    }
+    .copteles:hover{
+        background: blue;
+    }
+    .contenedor{
+        top: 262px;
+    }
+}   
